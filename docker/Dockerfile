@@ -1,4 +1,4 @@
-ARG BASE=python:alpine
+ARG BASE=python3.9:alpine
 FROM ${BASE}
 
 ARG QL_MAINTAINER="whyour"
